@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>HogarEspaña</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Teko:wght@400;500;600&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.0/build/css/intlTelInput.css"
+        />
+        <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.0/build/js/intlTelInput.min.js"></script>
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div
+                class="spinner-border position-relative text-primary"
+                style="width: 6rem; height: 6rem"
+                role="status"
+            ></div>
+            <img
+                class="position-absolute top-50 start-50 translate-middle"
+                src="img/icons/icon-1.png"
+                alt="Icon"
+            />
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar Start -->
+        <nav
+            class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-lg-5 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+                <h1 class="text-primary m-0">HogarEspaña</h1>
+            </a>
+            <button
+                type="button"
+                class="navbar-toggler me-4"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <a href="index.html" class="nav-item nav-link">Inicio</a>
+                    <a href="about.html" class="nav-item nav-link">Acerca de</a>
+                    <a href="estate.html" class="nav-item nav-link active"
+                        >Catálogo</a
+                    >
+                    <a href="contact.html" class="nav-item nav-link"
+                        >Contacto</a
+                    >
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Page Header Start -->
+        <div
+            class="container-fluid page-header py-5 mb-5 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div class="container py-5">
+                <h1 class="display-1 text-white animated slideInDown">
+                    Propiedades Destacadas
+                </h1>
+                <nav aria-label="breadcrumb animated slideInDown">
+                    <ol class="breadcrumb text-uppercase mb-0">
+                        <li class="breadcrumb-item">
+                            <a class="text-white" href="index.html">Inicio</a>
+                        </li>
+                        <li
+                            class="breadcrumb-item text-primary active"
+                            aria-current="page"
+                        >
+                            Propiedades Destacadas
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+        <!-- Page Header End -->
+
+        <!-- Properties Section Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div
+                    class="text-center mx-auto mb-5 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                >
+                    <h4 class="section-title">Inmuebles en España</h4>
+                    <h1 class="display-5 mb-4">
+                        Casas, Apartamentos y Propiedades Exclusivas
+                    </h1>
+                    <p>
+                        Descubra nuestras propiedades disponibles para compra o
+                        venta en las mejores ubicaciones de España. Desde
+                        apartamentos modernos en el centro de la ciudad hasta
+                        casas elegantes en la costa, cada propiedad ha sido
+                        seleccionada cuidadosamente para cumplir con los más
+                        altos estándares de calidad.
+                    </p>
+                </div>
+                <div class="row g-0 team-items">
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="events position-relative">
+                            <div class="position-relative">
+                                <img
+                                    style="
+                                        height: 500px;
+                                        width: 100%;
+                                        object-fit: cover;
+                                    "
+                                    class="img-fluid"
+                                    src="img/event-1.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="bg-light text-center p-4">
+                                <h3 class="mt-2">
+                                    Apartamento Moderno en Madrid
+                                </h3>
+                                <p>Contacto: Juan López</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div class="events position-relative">
+                            <div class="position-relative">
+                                <img
+                                    style="
+                                        height: 500px;
+                                        width: 100%;
+                                        object-fit: cover;
+                                    "
+                                    class="img-fluid"
+                                    src="img/event-2.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="bg-light text-center p-4">
+                                <h3 class="mt-2">Casa Familiar en Valencia</h3>
+                                <p>Contacto: María González</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="events position-relative">
+                            <div class="position-relative">
+                                <img
+                                    style="
+                                        height: 500px;
+                                        width: 100%;
+                                        object-fit: cover;
+                                    "
+                                    class="img-fluid"
+                                    src="img/event-3.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="bg-light text-center p-4">
+                                <h3 class="mt-2">
+                                    Vivienda Exclusiva en Barcelona
+                                </h3>
+                                <p>Contacto: Alejandro Pérez</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.7s"
+                    >
+                        <div class="events position-relative">
+                            <div class="position-relative">
+                                <img
+                                    style="
+                                        height: 500px;
+                                        width: 100%;
+                                        object-fit: cover;
+                                    "
+                                    class="img-fluid"
+                                    src="img/event-4.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="bg-light text-center p-4">
+                                <h3 class="mt-2">Lujoso Ático en Marbella</h3>
+                                <p>Contacto: Laura Fernández</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="events position-relative">
+                            <div class="position-relative">
+                                <img
+                                    style="
+                                        height: 500px;
+                                        width: 100%;
+                                        object-fit: cover;
+                                    "
+                                    class="img-fluid"
+                                    src="img/event-5.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="bg-light text-center p-4">
+                                <h3 class="mt-2">
+                                    Apartamento con Encanto en Sevilla
+                                </h3>
+                                <p>Contacto: Pedro Martínez</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div class="events position-relative">
+                            <div class="position-relative">
+                                <img
+                                    style="
+                                        height: 500px;
+                                        width: 100%;
+                                        object-fit: cover;
+                                    "
+                                    class="img-fluid"
+                                    src="img/event-6.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="bg-light text-center p-4">
+                                <h3 class="mt-2">
+                                    Proyecto Residencial en Málaga
+                                </h3>
+                                <p>Contacto: Sofía Ruiz</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Properties Section End -->
+
+        <!-- Facts Start -->
+        <div class="container-xxl py-5">
+            <div class="container pt-5">
+                <div
+                    class="text-center mx-auto mb-5 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                >
+                    <h4 class="section-title">Inmuebles Exclusivos</h4>
+                    <h1 class="display-5 mb-4">
+                        Villas, Áticos y Casas de Lujo
+                    </h1>
+                    <p>
+                        Descubra nuestra cuidada selección de propiedades
+                        exclusivas en España. Desde impresionantes villas y
+                        elegantes áticos hasta majestuosas casas, ofrecemos
+                        acceso a las mejores propiedades del mercado. Encuentre
+                        su propiedad soñada y disfrute de una experiencia única
+                        de compra o venta en las ubicaciones más deseadas del
+                        país.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div
+                        class="col-lg-4 col-md-4 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="fact-item text-center bg-light h-100 p-5">
+                            <img
+                                src="img/estate-1.jpg"
+                                alt=""
+                                style="
+                                    width: 100%;
+                                    height: 400px;
+                                    margin-bottom: 20px;
+                                    object-fit: cover;
+                                "
+                            />
+                            <h3 class="mb-3">Villa de Lujo en Marbella</h3>
+                            <p class="mb-0">
+                                Esta impresionante villa en Marbella combina
+                                lujo y comodidad en una ubicación privilegiada.
+                                Rodeada de hermosos paisajes y a poca distancia
+                                del mar, ofrece todas las comodidades que usted
+                                merece.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-4 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div class="fact-item text-center bg-light h-100 p-5">
+                            <img
+                                src="img/estate-2.jpg"
+                                alt=""
+                                style="
+                                    width: 100%;
+                                    height: 400px;
+                                    margin-bottom: 20px;
+                                    object-fit: cover;
+                                "
+                            />
+                            <h3 class="mb-3">Ático Moderno en Madrid</h3>
+                            <p class="mb-0">
+                                Este moderno ático en Madrid ofrece una vista
+                                espectacular de la ciudad. Con acabados de alta
+                                calidad y una ubicación inmejorable, es perfecto
+                                para quienes buscan una experiencia urbana de
+                                lujo.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-4 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="fact-item text-center bg-light h-100 p-5">
+                            <img
+                                src="img/estate-3.jpg"
+                                alt=""
+                                style="
+                                    width: 100%;
+                                    height: 400px;
+                                    margin-bottom: 20px;
+                                    object-fit: cover;
+                                "
+                            />
+                            <h3 class="mb-3">Casa Familiar en Valencia</h3>
+                            <p class="mb-0">
+                                Ubicada en un tranquilo barrio residencial, esta
+                                casa en Valencia es ideal para familias. Con un
+                                diseño moderno y un amplio jardín, es el lugar
+                                perfecto para crear recuerdos inolvidables.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Facts End -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid bg-dark text-body footer mt-5 pt-5 px-0 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-4 col-md-6">
+                        <h3 class="text-light mb-4">HogarEspaña</h3>
+                        <p>
+                            Nuestros servicios en el área de bienes raíces le
+                            ofrecen apoyo profesional para la compra, venta y
+                            gestión de propiedades. Estamos aquí para asistirle
+                            con nuestra experiencia y conocimiento,
+                            asegurándonos de que sus transacciones inmobiliarias
+                            en España sean exitosas.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h3 class="text-light mb-4">Dirección</h3>
+                        <p class="mb-2">
+                            <i class="fa fa-phone-alt text-primary me-3"></i
+                            >+34966799645
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-envelope text-primary me-3"></i>
+                            hogar_españa@gmail.com
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-envelope text-primary me-3"></i>
+                            Centro Comercial "Punta Marina, C. Escorpiones, 13,
+                            1er piso, 03185 Torrevieja, Alicante, España
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h3 class="text-light mb-4">Enlaces Rápidos</h3>
+                        <a class="btn btn-link" href="about.html"
+                            >Sobre Nosotros</a
+                        >
+                        <a class="btn btn-link" href="contact.html">Contacto</a>
+                        <a class="btn btn-link" href="privacy-policy.html"
+                            >Política de Privacidad</a
+                        >
+                        <a class="btn btn-link" href="cookie-policy.html"
+                            >Política de Cookies</a
+                        >
+                        <a class="btn btn-link" href="terms-of-use.html"
+                            >Términos de Uso</a
+                        >
+                        <a class="btn btn-link" href="business-model.html"
+                            >Modelo de Negocio</a
+                        >
+                        <a class="btn btn-link" href="disclaimer.html"
+                            >Aviso Legal</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+            ><i class="bi bi-arrow-up"></i
+        ></a>
+
+        <!-- Cookie-Banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Cookie-Zustimmung</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Diese Website verwendet Cookies, um Ihnen ein besseres und
+                    relevanteres Surferlebnis auf der Website zu ermöglichen.
+                    <a href="#">Mehr erfahren...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">
+                    Akzeptieren
+                </button>
+                <button class="cookie-button" id="declineBtn">Ablehnen</button>
+            </div>
+        </div>
+        <!-- Ende des Cookie-Banners -->
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/tempusdominus/js/moment.min.js"></script>
+        <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+        <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>

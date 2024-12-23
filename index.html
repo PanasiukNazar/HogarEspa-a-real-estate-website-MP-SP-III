@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>HogarEspaña</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Teko:wght@400;500;600&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.0/build/css/intlTelInput.css"
+        />
+        <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.0/build/js/intlTelInput.min.js"></script>
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div
+                class="spinner-border position-relative text-primary"
+                style="width: 6rem; height: 6rem"
+                role="status"
+            ></div>
+            <img
+                class="position-absolute top-50 start-50 translate-middle"
+                src="img/icons/icon-1.png"
+                alt="Icon"
+            />
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar Start -->
+        <nav
+            class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-lg-5 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+                <h1 class="text-primary m-0">HogarEspaña</h1>
+            </a>
+            <button
+                type="button"
+                class="navbar-toggler me-4"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <a href="index.html" class="nav-item nav-link active"
+                        >Inicio</a
+                    >
+                    <a href="about.html" class="nav-item nav-link">Acerca de</a>
+                    <a href="estate.html" class="nav-item nav-link">Catálogo</a>
+                    <a href="contact.html" class="nav-item nav-link"
+                        >Contacto</a
+                    >
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Carousel Start -->
+        <div class="container-fluid p-0 pb-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="owl-carousel header-carousel position-relative">
+                <div
+                    class="owl-carousel-item position-relative"
+                    data-dot="<img src='img/carousel-1.jpg'>"
+                >
+                    <img class="img-fluid" src="img/carousel-1.jpg" alt="" />
+                    <div class="owl-carousel-inner">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-10 col-lg-8">
+                                    <h1
+                                        class="display-1 text-white animated slideInDown"
+                                    >
+                                        Venta y Compra de Viviendas
+                                    </h1>
+                                    <p
+                                        class="fs-5 fw-medium text-white mb-4 pb-3"
+                                    >
+                                        Confíe en nuestra experiencia en la
+                                        compra y venta de viviendas para
+                                        encontrar la propiedad perfecta.
+                                        Ofrecemos asesoramiento profesional para
+                                        ayudarle a tomar decisiones informadas,
+                                        asegurando que cada transacción sea
+                                        exitosa.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="owl-carousel-item position-relative"
+                    data-dot="<img src='img/carousel-2.jpg'>"
+                >
+                    <img class="img-fluid" src="img/carousel-2.jpg" alt="" />
+                    <div class="owl-carousel-inner">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-10 col-lg-8">
+                                    <h1
+                                        class="display-1 text-white animated slideInDown"
+                                    >
+                                        Servicios de Asesoramiento en Compra y
+                                        Venta
+                                    </h1>
+                                    <p
+                                        class="fs-5 fw-medium text-white mb-4 pb-3"
+                                    >
+                                        Nuestro equipo de expertos le ofrece
+                                        asesoramiento personalizado en la compra
+                                        o venta de propiedades, asegurándose de
+                                        que obtenga el mejor valor por su
+                                        inversión en el mercado inmobiliario
+                                        español.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="owl-carousel-item position-relative"
+                    data-dot="<img src='img/carousel-3.jpg'>"
+                >
+                    <img class="img-fluid" src="img/carousel-3.jpg" alt="" />
+                    <div class="owl-carousel-inner">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-10 col-lg-8">
+                                    <h1
+                                        class="display-1 text-white animated slideInDown"
+                                    >
+                                        Análisis del Mercado Inmobiliario
+                                    </h1>
+                                    <p
+                                        class="fs-5 fw-medium text-white mb-4 pb-3"
+                                    >
+                                        Con análisis detallados del mercado y
+                                        valoraciones precisas de propiedades, le
+                                        ayudamos a tomar decisiones informadas
+                                        sobre el momento adecuado para comprar o
+                                        vender en el mercado inmobiliario
+                                        español.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+        <!-- Facts Start -->
+        <div class="container-xxl py-5">
+            <div class="container pt-5">
+                <div class="row g-4">
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="fact-item text-center bg-light h-100 p-5">
+                            <h3 class="mb-3">Venta de Propiedades</h3>
+                            <p class="mb-0">
+                                Un equipo de expertos le guiará en la venta de
+                                su propiedad, asegurándose de que obtenga el
+                                mejor precio y realice una transacción sin
+                                problemas. Nos encargamos de todos los detalles,
+                                desde la valoración hasta la firma del contrato.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div class="fact-item text-center bg-light h-100 p-5">
+                            <h3 class="mb-3">Compra de Propiedades</h3>
+                            <p class="mb-0">
+                                Ya sea que busque su primera vivienda o una
+                                propiedad de inversión, le ayudamos a encontrar
+                                la mejor opción en el mercado inmobiliario. Le
+                                asesoramos sobre las mejores oportunidades para
+                                que tome decisiones acertadas.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="fact-item text-center bg-light h-100 p-5">
+                            <h3 class="mb-3">Valoraciones de Propiedades</h3>
+                            <p class="mb-0">
+                                Ofrecemos servicios de valoración de propiedades
+                                para determinar el valor real de su casa o
+                                apartamento en el mercado actual, asegurando que
+                                usted pueda tomar decisiones informadas a la
+                                hora de comprar o vender.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Facts End -->
+
+        <!-- Feature Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5 mb-5">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <h1 class="display-5 mb-4">
+                            Chalet de lujo en la Costa Brava – Vivienda
+                            exclusiva con vistas impresionantes al mar
+                        </h1>
+                        <p class="mb-4">
+                            Este excepcional chalet, ubicado en el corazón de la
+                            Costa Brava, ofrece una combinación incomparable de
+                            lujo, comodidad y belleza natural. Rodeado por un
+                            paisaje costero impresionante, este inmueble es una
+                            joya para los compradores exigentes que buscan un
+                            hogar exclusivo en una de las regiones más
+                            codiciadas de España. El chalet destaca por su
+                            construcción de alta calidad y el uso de materiales
+                            de primera clase que combinan el encanto
+                            mediterráneo con un diseño moderno.
+                        </p>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <img
+                            style="width: 100%"
+                            class="img-fluid"
+                            src="img/private.jpg"
+                            alt=""
+                        />
+                    </div>
+                </div>
+                <div class="row g-5" style="flex-direction: row-reverse">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <h1 class="display-5 mb-4">
+                            Casa moderna en Madrid – Vivienda de lujo en el
+                            centro de la ciudad
+                        </h1>
+                        <p class="mb-4">
+                            Esta exclusiva casa en el centro de Madrid
+                            representa el estilo de vida urbano moderno en su
+                            máxima expresión. Con una ubicación privilegiada en
+                            una de las ciudades más dinámicas de Europa, este
+                            inmueble es ideal para compradores que desean
+                            combinar las ventajas de la vida urbana con
+                            comodidad y elegancia. La casa se extiende por
+                            varias plantas y ofrece una superficie habitable de
+                            aproximadamente 400 metros cuadrados. Ha sido
+                            renovada con gran atención al detalle y combina la
+                            arquitectura histórica con interiores
+                            contemporáneos. La fachada del edificio, que se
+                            mantiene en su estilo clásico, crea un contraste
+                            encantador con los modernos interiores.
+                        </p>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <img
+                            style="width: 100%"
+                            class="img-fluid"
+                            src="img/private1.jpg"
+                            alt=""
+                        />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Feature End -->
+
+        <!-- Testimonial Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div
+                    class="text-center mx-auto mb-5 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                    style="max-width: 600px"
+                >
+                    <h4 class="section-title">Opiniones de Clientes</h4>
+                    <h1 class="display-5 mb-4">
+                        Miles de clientes confían en nosotros y en nuestros
+                        servicios
+                    </h1>
+
+                    La satisfacción de nuestros clientes es nuestra principal
+                    prioridad. Nos complace presentar una selección de
+                    testimonios de nuestros estimados clientes. Lea lo que otros
+                    dicen sobre su experiencia con nosotros como agencia
+                    inmobiliaria. Sus comentarios no solo nos ayudan a mejorar,
+                    sino que también guían a futuros clientes que buscan apoyo
+                    confiable en la compra y venta de viviendas y apartamentos.
+                </div>
+                <div
+                    class="owl-carousel testimonial-carousel wow fadeInUp"
+                    data-wow-delay="0.1s"
+                >
+                    <div
+                        class="testimonial-item text-center"
+                        data-dot="<img class='img-fluid' src='img/testimonial-1.jpg' alt=''>"
+                    >
+                        <p class="fs-5">
+                            "Estaba buscando mi primera vivienda y me sentía
+                            abrumado al principio. Sin embargo, gracias al apoyo
+                            de la agencia inmobiliaria, pude encontrar
+                            rápidamente las mejores opciones. Me ayudaron a
+                            resolver todas mis dudas y me guiaron durante todo
+                            el proceso de compra. ¡Estoy muy feliz con mi nuevo
+                            hogar y recomiendo este servicio sin duda!"
+                        </p>
+                        <h3>Laura Sánchez</h3>
+                    </div>
+                    <div
+                        class="testimonial-item text-center"
+                        data-dot="<img class='img-fluid' src='img/testimonial-2.jpg' alt=''>"
+                    >
+                        <p class="fs-5">
+                            "El proceso de venta de mi propiedad fue un gran
+                            desafío para mí. Tenía muchas preguntas y
+                            preocupaciones, pero la agencia inmobiliaria me
+                            explicó todo y estuvo a mi lado en cada paso. Su
+                            estrategia de marketing profesional permitió que mi
+                            propiedad se vendiera rápidamente y recibí un precio
+                            que superó mis expectativas. ¡Estoy muy agradecido
+                            por su apoyo!"
+                        </p>
+                        <h3>Carlos Martínez</h3>
+                    </div>
+                    <div
+                        class="testimonial-item text-center"
+                        data-dot="<img class='img-fluid' src='img/testimonial-3.jpg' alt=''>"
+                    >
+                        <p class="fs-5">
+                            "Cuando quise vender mi casa, estaba un poco
+                            inseguro. Pero desde el principio, la agencia
+                            inmobiliaria me dio la confianza de que estaba en
+                            buenas manos. Me informaron a fondo sobre el proceso
+                            de venta y me ayudaron con la fijación del precio.
+                            Su experiencia y red de contactos me permitieron
+                            encontrar rápidamente un comprador. ¡Estoy muy
+                            satisfecho con el servicio y la recomiendo sin
+                            duda!"
+                        </p>
+                        <h3>Andrés Gómez</h3>
+                    </div>
+
+                    <div
+                        class="testimonial-item text-center"
+                        data-dot="<img class='img-fluid' src='img/testimonial-4.jpg' alt=''>"
+                    >
+                        <p class="fs-5">
+                            "Decidir invertir en una propiedad puede ser
+                            intimidante, pero la asesoría que recibí me dio la
+                            confianza para dar el paso. La agencia inmobiliaria
+                            no solo me ayudó a encontrar las propiedades
+                            adecuadas, sino que también me brindó valiosos
+                            consejos sobre la investigación del mercado. Estoy
+                            feliz de haber tomado este camino con su apoyo y la
+                            recomiendo a cualquier inversor."
+                        </p>
+                        <h3>Eduardo Rodríguez</h3>
+                    </div>
+
+                    <div
+                        class="testimonial-item text-center"
+                        data-dot="<img class='img-fluid' src='img/testimonial-5.jpg' alt=''>"
+                    >
+                        <p class="fs-5">
+                            "Utilicé los servicios de la agencia inmobiliaria
+                            para encontrar un apartamento en alquiler. Toda la
+                            experiencia fue increíblemente positiva. Escucharon
+                            mis necesidades y se aseguraron de que solo
+                            considerara las mejores opciones. Sus consejos para
+                            negociar el contrato de alquiler fueron
+                            extremadamente útiles y me ahorraron mucho tiempo y
+                            dinero. ¡Recomiendo sus servicios y definitivamente
+                            volveré a utilizarlo en el futuro!"
+                        </p>
+                        <h3>Patricia Fernández</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+        <!-- Ads Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div
+                    class="text-center mx-auto mb-5 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                >
+                    <h1 class="display-5 mb-4">
+                        Ofertas exclusivas para la compra y venta de casas y
+                        apartamentos
+                    </h1>
+                    <p>
+                        Aproveche nuestras ofertas limitadas para obtener lo
+                        mejor en la compra y venta de propiedades en España. Le
+                        ofrecemos descuentos atractivos y ofertas personalizadas
+                        adaptadas a sus necesidades. Benefíciese de nuestras
+                        promociones exclusivas y consiga propiedades de primera
+                        calidad a precios inigualables.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div
+                        class="col-lg-6 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div
+                            class="service-item d-flex position-relative text-center h-100"
+                        >
+                            <img class="bg-img" src="img/blog-1.jpg" alt="" />
+                            <div class="service-text p-5">
+                                <h3 class="mb-3">
+                                    Encuentra tu propiedad perfecta en España
+                                </h3>
+                                <p class="mb-4">
+                                    ¿Estás listo para comprar o vender una casa
+                                    o apartamento en España? Deja que nuestros
+                                    agentes expertos te guíen a través del
+                                    proceso y te ayuden a lograr tus objetivos
+                                    inmobiliarios. Descubre propiedades
+                                    impresionantes en ubicaciones privilegiadas
+                                    de toda España. ¡Contáctanos para más
+                                    información!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div
+                            class="service-item d-flex position-relative text-center h-100"
+                        >
+                            <img class="bg-img" src="img/blog-2.jpg" alt="" />
+                            <div class="service-text p-5">
+                                <h3 class="mb-3">
+                                    ¡Encuentra la casa de tus sueños en España!
+                                </h3>
+                                <p class="mb-4">
+                                    ¿Buscas la casa o el apartamento perfecto en
+                                    España? Ya sea que estés comprando o
+                                    vendiendo, ofrecemos asesoramiento experto y
+                                    un servicio personalizado en cada paso.
+                                    ¡Déjanos ayudarte a hacer realidad tu sueño
+                                    inmobiliario en España! ¡Contáctanos hoy
+                                    mismo!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div
+                            class="service-item d-flex position-relative text-center h-100"
+                        >
+                            <img class="bg-img" src="img/blog-3.jpg" alt="" />
+                            <div class="service-text p-5">
+                                <h3 class="mb-3">
+                                    Tu propiedad ideal en España te espera
+                                </h3>
+                                <p class="mb-4">
+                                    ¿Comprando o vendiendo una casa en España?
+                                    Nos especializamos en ayudarte a navegar por
+                                    el mercado inmobiliario español con
+                                    facilidad. Explora una amplia selección de
+                                    casas y apartamentos para todos los gustos y
+                                    presupuestos. ¡Confía en nosotros para una
+                                    transacción sin complicaciones! ¡Póntenos en
+                                    contacto ahora!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div
+                            class="service-item d-flex position-relative text-center h-100"
+                        >
+                            <img class="bg-img" src="img/blog-4.jpg" alt="" />
+                            <div class="service-text p-5">
+                                <h3 class="mb-3">
+                                    Asesoramiento experto para comprar y vender
+                                    en España
+                                </h3>
+                                <p class="mb-4">
+                                    ¿Buscas comprar o vender una casa o
+                                    apartamento en España? Nuestro equipo
+                                    experimentado garantiza una experiencia
+                                    fluida de principio a fin. ¡Consulta
+                                    nuestras ofertas y encuentra tu hogar
+                                    perfecto en España hoy mismo! ¡Llámanos hoy
+                                    para una consulta!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Ads End -->
+
+        <!-- gallery Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div
+                    class="text-center mx-auto mb-5 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                >
+                    <h4 class="section-title">Venta de Inmuebles</h4>
+                    <h1 class="display-5 mb-4">
+                        Apoyo completo para un cierre exitoso
+                    </h1>
+                    <p>
+                        La venta de inmuebles en España requiere experiencia,
+                        valoraciones precisas y estrategias de marketing
+                        efectivas. Como agencia inmobiliaria con experiencia, le
+                        ofrecemos un apoyo completo durante todo el proceso de
+                        venta, desde la primera consulta hasta la firma exitosa
+                        del contrato. Nuestro objetivo es hacer que el proceso
+                        de venta sea lo más fluido y exitoso posible. Con
+                        asesoramiento personalizado, acciones de marketing
+                        enfocadas y valoraciones precisas, nos aseguramos de que
+                        su propiedad reciba la atención que merece y se venda al
+                        mejor precio. Confíe en nuestra experiencia y compromiso
+                        para alcanzar sus objetivos inmobiliarios.
+                    </p>
+                </div>
+                <div class="row g-0 team-items">
+                    <div
+                        class="col-lg-4 col-md-4 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="team-item position-relative">
+                            <div class="position-relative">
+                                <img
+                                    style="width: 100%"
+                                    class="img-fluid"
+                                    src="img/work-with-me-1.jpg"
+                                    alt=""
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-4 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div class="team-item position-relative">
+                            <div class="position-relative">
+                                <img
+                                    style="width: 100%"
+                                    class="img-fluid"
+                                    src="img/work-with-me-2.jpg"
+                                    alt=""
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-4 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="team-item position-relative">
+                            <div class="position-relative">
+                                <img
+                                    style="width: 100%"
+                                    class="img-fluid"
+                                    src="img/work-with-me-3.jpg"
+                                    alt=""
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-4 wow fadeInUp"
+                        data-wow-delay="0.7s"
+                    >
+                        <div class="team-item position-relative">
+                            <div class="position-relative">
+                                <img
+                                    style="width: 100%"
+                                    class="img-fluid"
+                                    src="img/work-with-me-4.jpg"
+                                    alt=""
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-4 wow fadeInUp"
+                        data-wow-delay="0.7s"
+                    >
+                        <div class="team-item position-relative">
+                            <div class="position-relative">
+                                <img
+                                    style="width: 100%"
+                                    class="img-fluid"
+                                    src="img/work-with-me-5.jpg"
+                                    alt=""
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-4 wow fadeInUp"
+                        data-wow-delay="0.7s"
+                    >
+                        <div class="team-item position-relative">
+                            <div class="position-relative">
+                                <img
+                                    style="width: 100%"
+                                    class="img-fluid"
+                                    src="img/work-with-me-6.jpg"
+                                    alt=""
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- gallery End -->
+
+        <!-- Appointment Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5">
+                    <div
+                        class="col-lg-12 wow fadeInUp text-center"
+                        data-wow-delay="0.1s"
+                    >
+                        <h4 class="section-title">
+                            Ihr Weg zur erfolgreichen Immobilienverwaltung
+                            beginnt hier
+                        </h4>
+                        <h1 class="display-5 mb-4">
+                            Vereinbaren Sie jetzt einen Termin für eine
+                            persönliche Beratung
+                        </h1>
+                        <p class="mb-4">
+                            Nutzen Sie die Gelegenheit, sich von einem
+                            erfahrenen Immobilienmanager professionell beraten
+                            zu lassen. Wir verstehen, dass die Verwaltung von
+                            Immobilien in der Schweiz komplexe Anforderungen mit
+                            sich bringt. Deshalb bieten wir Ihnen eine
+                            maßgeschneiderte Beratung, die speziell auf Ihre
+                            individuellen Bedürfnisse und Ziele abgestimmt
+                            ist.Egal, ob Sie Unterstützung bei der
+                            Mietverwaltung, der Wertsteigerung Ihrer Immobilien
+                            oder der Planung neuer Investitionen benötigen – wir
+                            stehen Ihnen mit unserer Expertise zur Seite. In
+                            einem persönlichen Gespräch können wir Ihre Fragen
+                            klären, Ihre Anliegen besprechen und gemeinsam eine
+                            Strategie entwickeln, die Ihnen Sicherheit und
+                            Erfolg in der Immobilienverwaltung garantiert.
+                        </p>
+                    </div>
+                    <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="row g-3">
+                            <div class="col-md-6 co-12">
+                                <div class="form-group">
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        id="contact-name"
+                                        placeholder="Nombre"
+                                    />
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <select
+                                    name="Tema del recurso"
+                                    aria-valuemax="tema del recurso"
+                                    id=""
+                                >
+                                    <option value="consult">Consulta</option>
+                                    <option value="buy">Compra</option>
+                                    <option value="sell">Venta</option>
+                                    <option value="estimate">Valoración</option>
+                                </select>
+                            </div>
+
+                            <div class="col-md-6 col-12">
+                                <div class="form-group">
+                                    <input
+                                        type="email"
+                                        class="form-control"
+                                        id="email"
+                                        placeholder="Correo electrónico"
+                                    />
+                                    <div id="result" style="color: red"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <div class="form-group">
+                                    <input
+                                        style="width: 100%"
+                                        type="text"
+                                        inputmode="numeric"
+                                        pattern="[0-9]+"
+                                        class="form-control"
+                                        id="phone"
+                                        placeholder="Número de teléfono"
+                                    />
+                                    <div id="result" style="color: red"></div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <textarea
+                                        class="form-control"
+                                        name="message"
+                                        id="message"
+                                        cols="30"
+                                        rows="10"
+                                        placeholder="Mensaje"
+                                    ></textarea>
+                                </div>
+                            </div>
+
+                            <button
+                                type="submit"
+                                class="btn btn-primary w-100 py-3"
+                                id="submit"
+                                onclick="sendForm()"
+                            >
+                                Enviar mensaje
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Appointment End -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid bg-dark text-body footer mt-5 pt-5 px-0 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-4 col-md-6">
+                        <h3 class="text-light mb-4">HogarEspaña</h3>
+                        <p>
+                            Nuestros servicios en el área de bienes raíces le
+                            ofrecen apoyo profesional para la compra, venta y
+                            gestión de propiedades. Estamos aquí para asistirle
+                            con nuestra experiencia y conocimiento,
+                            asegurándonos de que sus transacciones inmobiliarias
+                            en España sean exitosas.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h3 class="text-light mb-4">Dirección</h3>
+                        <p class="mb-2">
+                            <i class="fa fa-phone-alt text-primary me-3"></i
+                            >+34966799645
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-envelope text-primary me-3"></i>
+                            hogar_españa@gmail.com
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-envelope text-primary me-3"></i>
+                            Centro Comercial "Punta Marina, C. Escorpiones, 13,
+                            1er piso, 03185 Torrevieja, Alicante, España
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h3 class="text-light mb-4">Enlaces Rápidos</h3>
+                        <a class="btn btn-link" href="about.html"
+                            >Sobre Nosotros</a
+                        >
+                        <a class="btn btn-link" href="contact.html">Contacto</a>
+                        <a class="btn btn-link" href="privacy-policy.html"
+                            >Política de Privacidad</a
+                        >
+                        <a class="btn btn-link" href="cookie-policy.html"
+                            >Política de Cookies</a
+                        >
+                        <a class="btn btn-link" href="terms-of-use.html"
+                            >Términos de Uso</a
+                        >
+                        <a class="btn btn-link" href="business-model.html"
+                            >Modelo de Negocio</a
+                        >
+                        <a class="btn btn-link" href="disclaimer.html"
+                            >Aviso Legal</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+            ><i class="bi bi-arrow-up"></i
+        ></a>
+
+        <!-- Cookie-Banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Cookie-Zustimmung</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Diese Website verwendet Cookies, um Ihnen ein besseres und
+                    relevanteres Surferlebnis auf der Website zu ermöglichen.
+                    <a href="#">Mehr erfahren...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">
+                    Akzeptieren
+                </button>
+                <button class="cookie-button" id="declineBtn">Ablehnen</button>
+            </div>
+        </div>
+        <!-- Ende des Cookie-Banners -->
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/tempusdominus/js/moment.min.js"></script>
+        <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+        <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/contact-form.js"></script>
+        <script src="js/cookiebanner.js"></script>
+
+        <script>
+            const input = document.querySelector('#phone');
+            window.intlTelInput(input, {
+                loadUtils: () =>
+                    import(
+                        'https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.0/build/js/utils.js'
+                    ),
+            });
+        </script>
+    </body>
+</html>
